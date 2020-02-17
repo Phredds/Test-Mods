@@ -1,0 +1,10 @@
+<SoDead>
+	<append xpath="/entitygroups">
+		<entitygroup name="ThatAllYouGot">
+			<entity name="animalBossGrace"/>
+			<entity name="animalDireWolf"/>
+			<entity name="animalZombieDog"/>
+			<entity name="animalZombieBear"/>
+		</entitygroup>
+	</append>
+</SoDead>

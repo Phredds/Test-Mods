@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SoDead_IncreasedZombies" />
+		<Description value="Based on JaxTellers Mod - Increases Zombie Spawns" />
+		<Author value="SoDead" />
+		<Version value="1.0" compat="A18.3" />
+		<Website value="" />
+	</ModInfo>
+</xml>

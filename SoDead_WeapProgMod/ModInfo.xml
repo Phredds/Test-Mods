@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="SoDead_WeapProgMod" />
+        <Description value="Testing mods in A18." />
+        <Author value="SoDead" />
+        <Version value="A18.3" />
+    </ModInfo>
+</xml>

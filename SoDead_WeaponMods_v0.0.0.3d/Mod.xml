@@ -1,0 +1,10 @@
+<mod>
+	<info>
+		<author>SoDead</author>
+		<name>SoDead_WeaponMods</name>
+		<description>Adds new weapons to the game.</description>
+		<mod_version>0.0.0.3d</mod_version>
+		<game_version>18.4</game_version>
+		<launcher_version>0.1.0</launcher_version>
+	</info>
+</mod>

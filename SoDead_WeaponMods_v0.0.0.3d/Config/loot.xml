@@ -1,0 +1,14 @@
+<SoDead>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsRare']" >
+		<item name="gunAdvancedCrossbowSchematic"/>
+		<item name="gunDeagleSchematic"/>
+		<item name="gunTacticalShotgunSchematic"/>
+		<item name="gunShawnsShotgunSchematic"/>
+		<item name="resourceCarbonFiberSchematic"/>
+		<item name="meleeKmeusKlubSchematic"/>
+	</append>	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='rareTools']" >
+		<item name="toolAndDieSet"/>
+	</append>
+</SoDead>

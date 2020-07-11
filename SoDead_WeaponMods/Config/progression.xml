@@ -1,0 +1,41 @@
+<SoDead>
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='5']/@tags">,mill,resourceCarbonFiber,resourceCarbonFiberBillet,resourceCarbonFiberRoll,resourceCarbonFiberTube</append>
+	
+	<append xpath="/progression/perks" >
+		<perk name="perkMasterCraftsman" parent="skillIntellectCraftsmanship" max_level="5" name_key="perkMasterCraftsmanName" desc_key="perkMasterCraftsmanDesc" icon="ui_game_symbol_workbench"  cost_multiplier_per_level="1">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqGenericPoints01"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqGenericPoints01"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqGenericPoints01"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqGenericPoints01"/></level_requirements>
+
+			<effect_group>
+			
+				
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1"
+			tags="resourceBrassBulletTip,resourceBrassCore,resourceCarbonFiberGrips,resourceCarbonFiberStock,resourceTacticalShotgunCasing,resourceShotgunCasingCF,resourceShotgunSlugCF,ammoAdvCrossbowBoltSteel,ammo50MagnumBulletBall,ammo45ACPBulletBall"/>
+			<passive_effect name="CraftingTime" operation="perc_add" level="1,5" value="-0.2" tags="perkMasterCraftsman"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1"
+			tags="gunAdvancedCrossbow,advancedPickAxe,gunDeagle,gunTacticalShotgun,gunShawnsShotgun,meleeKmeusKlub,ThompsonSMG,resourceShotgunReceiver,resourceShotgunButtstock,resourceShotgunBarrel,resourceDeagleSlide,resourceDeagleFrame,resourceDeagleBarrel,resourceacb_string,resourceacb_stock,resourceacb_limbs,resourceacb_forwardMount,resourceacb_forwardAssembly,resourceacb_cam,resourceacb_boltGuide,resourceThompsonBarrel,resourceThompsonButtstock,resourceThompsonReceiver,resourceThompsonStock,resourceThompsonMagazine,resourceThompsonForeGrip"/>
+			<passive_effect name="CraftingTime" operation="perc_add" level="2,5" value="-0.2" tags="workbenchCrafting,cementMixerCrafting,tableSawCrafting,millCrafting"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1"
+			tags="ammoAdvCrossbowBoltSteelAP,ammo45ACPBulletAP,ammo50MagnumBulletAP"/>			
+			<passive_effect name="ElectricalTrapXP" operation="base_set" level="3,4,5" value="0.2,0.35,0.5"/>			
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1"
+			tags="ammoAdvCrossbowBoltSteelSH,ammoAdvCrossbowBoltSteelBRN,ammo50MagnumBulletSH,ammo50MagnumBulletBRN,ammoShawnsShotgunShellSH,ammoTacticalShotgunShellSH,ammo45ACPBulletSH,ammo45ACPBulletBRN"/>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1"
+			tags="ammoBundleAdvCrossbowBoltSteel,ammoBundleAdvCrossbowBoltSteelAP,ammoBundle50MagnumBulletBall,ammoBundle50MagnumBulletAP,ammoBundle50MagnumBulletSH,ammoBundle50MagnumBulletBRN,ammoBundleShawnsShotgunShellSH,ammoBundleTacticalShotgunShellSH,ammoBundle45ACPBulletBall,ammoBundle45ACPBulletAP,ammoBundle45ACPBulletSH,ammoBundle45ACPBulletBRN"/>
+			
+					
+				<effect_description level="1" desc_key="perkMasterCraftsmanRank1Desc" long_desc_key="perkMasterCraftsmanRank1LongDesc"/>
+				<effect_description level="2" desc_key="perkMasterCraftsmanRank2Desc" long_desc_key="perkMasterCraftsmanRank2LongDesc"/>
+				<effect_description level="3" desc_key="perkMasterCraftsmanRank3Desc" long_desc_key="perkMasterCraftsmanRank3LongDesc"/>
+				<effect_description level="4" desc_key="perkMasterCraftsmanRank4Desc" long_desc_key="perkMasterCraftsmanRank4LongDesc"/>
+				<effect_description level="5" desc_key="perkMasterCraftsmanRank5Desc" long_desc_key="perkMasterCraftsmanRank5LongDesc"/>
+			</effect_group>
+			
+		</perk> 
+	
+	</append >	
+</SoDead>
+

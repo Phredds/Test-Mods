@@ -1,8 +1,0 @@
-Credits:
-Thank you to all 7 Days to Die Modders for all the examples and help provided from the forums.
-
-Mill Prefab - Del Stryker - https://7daystodiemods.com/delmod-tools/ 
-
-Club Spiked: dualityy - https://free3d.com/3d-model/spiked-club--50472.html (used Mesh)
-Desert Eagle: kobraandrey - https://free3d.com/3d-model/desert-eagle-62873.html (used Mesh)
-Thompson SMG - xcolossus99 - https://free3d.com/3d-model/thompson-tommy-gun-3d-game-ready-660255.html

@@ -1,6 +1,0 @@
-<configs>
-	<!-- Make the icon select area a bit smaller so there's no overlap -->
-	<!-- THIS IS CODE FROM: Khaine's 60-slot Bigger Backpack Mod -->	
-    <set xpath="/styles/style[@name='itemStack']/style_entry[@name='width']/@value">50</set>
-    <set xpath="/styles/style[@name='itemStack']/style_entry[@name='height']/@value">50</set>
-</configs>

@@ -1,0 +1,237 @@
+<configs>
+
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupQuestChallenge']">		
+		<lootgroup name="beefcake" count="all">
+				<item name="BeefCake" count="1"/>
+			</lootgroup>
+		<lootgroup name="butcher" count="all">
+				<item name="Butcher Knife" count="1"/>
+			</lootgroup>	
+		<lootgroup name="chips" count="all">
+				<item name="Chips" count="1"/>
+			</lootgroup>
+		<lootgroup name="fryingpan" count="all">
+				<item name="Rusty Frying Pan" count="1"/>
+			</lootgroup>
+		<lootgroup name="salt" count="all">
+				<item name="Old Salt" count="1,8"/>
+			</lootgroup>	
+		<lootgroup name="scythe" count="all">
+				<item name="Scythe" count="1"/>
+			</lootgroup>
+		<lootgroup name="seedpack" count="all">
+				<item name="Seed Pack" count="1"/>
+			</lootgroup>	
+		<lootgroup name="tonic" count="all">
+				<item name="Tonic" count="1"/>
+			</lootgroup>		
+	</insertBefore>
+
+
+	<!-- Stove -->
+	<append xpath="/lootcontainers/lootcontainer[@id='5']">	
+		<item group="fryingpan" count="1" prob="0.1"/>	
+		<item group="butcher" count="1" prob="0.02"/>
+	</append>
+	<!-- Kitchen Sinks -->
+	<append xpath="/lootcontainers/lootcontainer[@id='8']">	
+		<item group="fryingpan" count="1" prob="0.2"/>	
+		<item group="seedpack" count="1" prob="0.05"/>
+		<item group="butcher" count="1" prob="0.02"/>
+		<item group="beefcake" count="1" prob="0.002"/>
+	</append>
+	<!-- Trash -->
+	<append xpath="/lootcontainers/lootcontainer[@id='10']">
+		<item group="salt" count="1" prob=".02"/>
+		<item group="chips" count="1" prob="0.05"/>
+		<item group="tonic" count="1" prob="0.05"/>
+		<item group="beefcake" count="1" prob="0.002"/>
+	</append>
+	<!-- Cupboard -->
+	<append xpath="/lootcontainers/lootcontainer[@id='17']">	
+		<item group="salt" count="1" prob=".1"/>	
+		<item group="seedpack" count="1" prob="0.05"/>
+		<item group="fryingpan" count="1" prob="0.01"/>
+		<item group="butcher" count="1" prob="0.002"/>
+		<item group="chips" count="1" prob="0.05"/>
+		<item group="tonic" count="1" prob="0.05"/>
+		<item group="beefcake" count="1" prob="0.002"/>
+	</append>
+	<!--  Fridge -->
+	<append xpath="/lootcontainers/lootcontainer[@id='20']">	
+		<item group="salt" count="1" prob=".02"/>	
+		<item group="tonic" count="1" prob="0.05"/>
+		<item group="beefcake" count="1" prob="0.002"/>
+	</append>
+	<!--  Garage Box -->
+	<append xpath="/lootcontainers/lootcontainer[@id='22']">
+		<item group="fryingpan" count="1" prob="0.01"/>
+		<item group="seedpack" count="1" prob="0.035"/>
+		<item group="scythe" count="1" prob="0.001"/>
+		<item group="butcher" count="1" prob="0.002"/>
+	</append>
+	<!-- Supply drop general  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='34']">		
+		<item group="seedpack" count="1" prob="0.035"/>
+	</append>
+	<!-- Shamway Safe  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='38']">
+		<item group="seedpack" count="1,3" prob="0.02"/>
+		<item group="beefcake" count="1" prob="0.002"/>
+	</append>
+	<!-- Another Fridge?  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='47']">
+		<item group="salt" count="1" prob=".02"/>
+		<item group="tonic" count="1" prob="0.05"/>
+	</append>
+	<!-- Shopping Cart  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='54']">
+		<item group="salt" count="1" prob=".02"/>
+		<item group="chips" count="1" prob="0.05"/>
+		<item group="tonic" count="1" prob="0.05"/>
+	</append>
+	<!-- Shopping Basket  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='58']">
+		<item group="salt" count="1" prob=".02"/>
+		<item group="chips" count="1" prob="0.05"/>
+		<item group="tonic" count="1" prob="0.05"/>
+		<item group="beefcake" count="1" prob="0.002"/>
+	</append>
+	<!-- Shamyway Box  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='59']">
+		<item group="salt" count="1" prob=".02"/>	
+		<item group="seedpack" count="1" prob="0.05"/>
+		<item group="chips" count="1" prob="0.07"/>
+		<item group="tonic" count="1" prob="0.07"/>
+		<item group="beefcake" count="1" prob="0.002"/>
+	</append>
+	<!-- Construction Shit  -->
+	<append xpath="/lootcontainers/lootcontainer[@id='88']">
+		<item group="fryingpan" count="1" prob="0.01"/>
+		<item group="scythe" count="1" prob="0.001"/>
+		<item group="butcher" count="1" prob="0.002"/>
+	</append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='seeds']">
+       <!-- CROPS -->
+		<item name="Barley Seed"/>
+		<item name="Basil Seed"/>
+		<item name="Beet Seed"/>
+		<item name="BellPepper Seed"/>
+		<item name="BitterHops Seed"/>
+		<item name="BlackBean Seed"/>
+		<item name="BlackPepper Seed"/>
+		<item name="Broccoli Seed"/>
+		<item name="BrusselsSprouts Seed"/>
+		<item name="Cabbage Seed"/>
+		<item name="Carrot Seed"/>
+		<item name="Celery Seed"/>
+		<item name="CherryTomato Seed"/>
+		<item name="Cilantro Seed"/>
+		<item name="Cucumber Seed"/>
+		<item name="Cumin Seed"/>
+		<item name="Dill Seed"/>
+		<item name="Flax Seed"/>
+		<item name="FloralHops Seed"/>
+		<item name="Garlic Seed"/>
+		<item name="GhostPepper Seed"/>
+		<item name="Ginger Seed"/>        
+		<item name="GreenBean Seed"/>
+		<item name="Habanero Seed"/>
+		<item name="HeirloomTomato Seed"/>
+		<item name="Herb Seed"/>
+		<item name="IcebergLettuce Seed"/>
+		<item name="Jalapeno Seed"/>		
+		<item name="KidneyBean Seed"/>
+		<item name="Marijuana Seed"/>
+		<item name="Mint Seed"/>
+		<item name="Okra Seed"/>
+		<item name="Onion Seed"/>
+		<item name="Oregano Seed"/>
+		<item name="Poblano Seed"/>
+		<item name="Pineapple Seed"/>
+		<item name="PintoBean Seed"/>
+		<item name="Raspberry Seed"/>
+		<item name="Rice Seed"/>
+		<item name="Romaine Seed"/>
+		<item name="Rosemary Seed"/>
+		<item name="Rye Seed"/>
+		<item name="Shallot Seed"/>
+		<item name="Sorghum Seed"/>
+		<item name="SoyBean Seed"/>
+		<item name="Spice Seed"/>
+		<item name="Spinach Seed"/>
+		<item name="Squash Seed"/>
+		<item name="Strawberry Seed"/>
+		<item name="SugarCane Seed"/>
+		<item name="Sunflower Seed"/>
+		<item name="Thyme Seed"/>
+		<item name="Tomatillo Seed"/>
+		<item name="Tomato Seed"/>
+		<item name="VineyardGrape Seed"/>
+		<item name="Wheat Seed"/>
+		<!-- TREES -->
+		<item name="Apple Seed"/>
+		<item name="Avocado Seed"/>
+		<item name="Banana Seed"/>
+		<item name="Cherry Seed"/>
+		<item name="Cinnamon Seed"/>
+		<item name="Coconut Seed"/>
+		<item name="Lime Seed"/>
+		<item name="Meyer Lemon Seed"/>
+		<item name="Nut Tree Seed"/>
+		<item name="Olive Seed"/>
+		<item name="Orange Seed"/>
+		<item name="Pear Seed"/>
+		<item name="Red Apple Seed"/>
+		<item name="Sakura Seed"/>
+		<item name="Sugar Maple Seed"/>
+		<item name="Walnut Seed"/>
+		<item name="White Oak Seed"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='cannedfood']">
+        <item name="Salt Shaker"/>
+        <item name="Black Pepper Tin"/>
+        <item name="Air of Scotland"/>
+        <item name="Bottle Cap"/>
+        <item name="Salmon Roe"/>
+    </append>
+    <append xpath="/lootcontainers/lootgroup[@name='cupboard']">
+        <item name="Salt" prob="0.05"/>
+        <item name="Black Pepper" prob="0.05"/>
+        <item name="Salt Shaker" prob="0.05"/>
+        <item name="Black Pepper Tin" prob="0.05"/>
+        <item name="Air of Scotland" prob="0.05"/>
+        <item name="Bottle Cap" prob="0.05"/>
+        <item name="Salmon Roe" prob="0.05"/>
+		<item name="cryogenicContainerBee" prob="0.05"/>
+		<item name="cryogenicContainerChicken" prob="0.05"/>
+		<item name="cryogenicContainerCow" prob="0.05"/>		
+		<item name="cryogenicContainerDuck" prob="0.05"/>
+		<item name="cryogenicContainerElk" prob="0.05"/>
+		<item name="cryogenicContainerGoat" prob="0.05"/>
+		<item name="cryogenicContainerHorse" prob="0.05"/>
+		<item name="cryogenicContainerPig" prob="0.05"/>
+		<item name="cryogenicContainerPheasant" prob="0.05"/>
+		<item name="cryogenicContainerRabbit" prob="0.05"/>
+		<item name="cryogenicContainerSheep" prob="0.05"/>
+		<item name="cryogenicContainerTurkey" prob="0.05"/>
+    </append>
+	<append xpath="/lootcontainers/lootgroup[@name='rareTools']" >
+		<item name="toolAndDieSet"/>
+	</append>
+
+	<!--
+	========================================================================
+	 Unnecessary but Beautiful - hernanxx | Recipes/Workstations by: SoDead
+	========================================================================
+	-->
+	<append xpath="/lootcontainers">
+		<lootcontainer id="420" size="10,9" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" >
+			</lootcontainer>			
+		<lootcontainer id="421" size="12,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" >
+			</lootcontainer>
+		<lootcontainer id="422" size="12,9" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" >
+			</lootcontainer>
+	</append>	
+</configs>

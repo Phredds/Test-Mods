@@ -1,0 +1,8 @@
+<configs>
+	
+  <set xpath="/windows/window[@name='menuBackground']/texture/@texture">@modfolder:Textures/menu/FLEmenu.png</set>
+
+  <set xpath="/windows/window[@name='mainMenu']/label[@name='SMXeditionInfo']/@text">Grow A Pair - Farm Life Expanded Info</set>
+  <set xpath="/windows/window[@name='mainMenu']/label[@name='SMXversionInfo']/@text">Version 0.0.0.1r2</set>
+
+</configs>
